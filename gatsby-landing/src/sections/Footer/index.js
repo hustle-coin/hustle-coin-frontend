@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa"
-import Subscribe from "sections/Subscribe"
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
 import Heading from "reusecore/Heading"
@@ -17,7 +16,6 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <Box className="footer-content-wrapper">
-        <Subscribe />
         <Container>
           <Row>
             <Col className="xs-12">

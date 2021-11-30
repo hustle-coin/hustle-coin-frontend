@@ -12,12 +12,15 @@ import GlobalStyle from "assets/theme";
 
 const NotFoundPage = () => (
   <ThemeProvider theme={theme}>
-   <Layout>
-     <SEO title="404: Not found" />
-     <h1>RUG-PULL.......NOT!!</h1>
-     <p>This is NOT a rug-pull....you just hit a page that doesn&#39;t exist... the sadness.</p>
-   </Layout>
+    <Layout>
+      <GlobalStyle />
+      <SEO title="404: Not found" />
+      <h1>RUG-PULL.......NOT!!</h1>
+      <p>This is NOT a rug-pull....you just hit a page that doesn&#39;t exist... the sadness.</p>
+      <Navigation />
+      <BlogItems />
+      <Footer/>
+    </Layout>
   </ThemeProvider>
 )
-
 export default NotFoundPage
