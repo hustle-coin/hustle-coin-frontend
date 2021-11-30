@@ -14,7 +14,7 @@ import AboutSectionWrapper from "./about.style"
 
 const About = () => {
   return (
-    <AboutSectionWrapper id="about">
+    <AboutSectionWrapper id="about-right-content">
       <Container>
         <Row>
           <Col className="lg-5 md-6 sm-12">
@@ -25,7 +25,7 @@ const About = () => {
             />
           </Col>
           <Col className="lg-6 offset-lg-1 md-6 sm-12">
-            <Box className="about-right-content">
+            <Box className="about">
               <SectionTitle>
                 <SectionBackground>
                   <Heading as="h1">
