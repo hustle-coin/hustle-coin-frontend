@@ -22,7 +22,7 @@ const Awards = () => {
                   <Heading as="h1">Tokenomics</Heading>
                 </SectionBackground>
                 <Text>
-                  Hustle Coin is created on the Binance Smart Chain.
+                  Hustle Coin is powered by the Binance Smart Chain.
                 </Text>
               </SectionTitle>
             </Box>

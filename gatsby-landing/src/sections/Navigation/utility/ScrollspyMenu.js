@@ -39,9 +39,6 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
           )}
         </ListItem>
       ))}
-      <ListItem>
-        <button className="nav__button">Get in Touch</button>
-      </ListItem>
     </List>
   )
 }

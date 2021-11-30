@@ -40,10 +40,10 @@ const Wallet = () => {
                   converted to BNB and added to the balance throughout the day.
                 </Text>
                 <Text>
-                 On the 25th of each month, the contract will automatically select
-                 one Hustle Coin holder and award them with 100% of the Moon Wallet! <br />
+                 Hustle Coin will automatically select one HSTL holder and 
+                 award them with 100% of the Moon Wallet on the 25th of EVERY month. <br />
                  For your chance, simply hold a minimum of 100 HSTL coins in your wallet and
-                 you might be the next one to say hello to the moon! 
+                 you might be the next one to say hello to the moon!
                 </Text>
               </SectionTitle>
 

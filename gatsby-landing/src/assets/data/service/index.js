@@ -8,12 +8,12 @@ export default {
     {
       icon: serviceIcon1,
       title: "Team KYC",
-      body: "Full KYC with pinksale.finance.",
+      body: "KYC'd with pinksale.finance.",
     },
     {
       icon: serviceIcon2,
       title: "Contract Audit",
-      body: "Hustle Coins contract has been fully verified.",
+      body: "Audit completed by pinksale.finance.",
     },
     {
       icon: serviceIcon3,

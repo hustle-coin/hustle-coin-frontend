@@ -59,7 +59,7 @@ const Banner = () => {
                 Hustle Coin offers a unique lottery system in which holders of{" "}
                 <br />
                 HSTL have a chance each month at being awarded 100% of the Moon
-                <br /> Wallets balance!
+                <br /> Wallet balance!
                 </Text>
                 <Text>
                 No additional purchase is needed to be entered in for your chance

@@ -12,7 +12,7 @@ import {
     links : [
         {
             icon: <FaTwitter />,
-            url: "#"
+            url: "https://twitter.com/hustlecointoday"
         },
         {
             icon: <FaFacebookF />,
@@ -20,15 +20,15 @@ import {
         },
         {
             icon: <FaGithub />,
-            url: "#"
+            url: "https://github.com/hustle-coin"
         },
         {
             icon: <FaRegEnvelope />,
-            url: "#"
+            url: "mailto:admin@hustlecoin.today"
         },
         {
             icon: <FaTelegramPlane />,
-            url: "#"
+            url: "t.me/hustlecointoday"
         }
     ]
   }
