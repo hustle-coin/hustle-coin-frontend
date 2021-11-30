@@ -17,13 +17,6 @@ const About = () => {
     <AboutSectionWrapper id="about">
       <Container>
         <Row>
-          <Col className="lg-5 md-6 sm-12">
-            <Image
-              src={aboutImage}
-              className="about-image"
-              alt="Hustle Coin"
-            />
-          </Col>
           <Col className="lg-6 offset-lg-1 md-6 sm-12">
             <Box className="about-right-content">
               <SectionTitle>
@@ -40,6 +33,13 @@ const About = () => {
                 <Text as="span">Purchase BNB On An Exchange.</Text>
                 <Text as="span">Swap Hustle Coin On PancakeSwap.</Text>
               </Box>
+              <Col className="lg-5 md-6 sm-12">
+                <Image
+                  src={aboutImage}
+                  className="about-image"
+                  alt="Hustle Coin"
+                />
+              </Col>
 
               <Box className="about-btn-wrapper">
                 <Link to="https://play.google.com/store/apps/details?id=io.metamask&hl=en_US&ref=producthunt&_branch_match_id=988807381333775979&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz00tScxNLM7WSywo0MvJzMvWT6ooz3a1yHeztAQA%2FOIqTSQAAAA%3D" className="btn btn-fill">
