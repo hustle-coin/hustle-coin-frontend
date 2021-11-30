@@ -11,8 +11,9 @@ import About from "sections/About";
 import Awards from "sections/tokenomics";
 import Wallet from "sections/Wallet";
 import Statistics from "sections/Statistics";
-import Stack from "sections/Stack";
 import Faq from "sections/Faq";
+import Subscribe from "sections/Subscribe";
+import Stack from "sections/Stack";
 import Footer from "sections/Footer";
 
 import theme from "assets/theme/theme";
@@ -32,6 +33,7 @@ const IndexPage = () => (
       <Wallet />
       <Statistics />
       <Faq />
+      <Subscribe />
       <Stack />
       <Footer />
     </Layout>
