@@ -14,19 +14,18 @@ import AboutSectionWrapper from "./about.style"
 
 const About = () => {
   return (
-    <AboutSectionWrapper id="about-right-content">
+    <AboutSectionWrapper id="about">
       <Container>
         <Row>
-        <Col className="lg-6 offset-lg-1 md-6 sm-12">
-
+          <Col className="lg-5 md-6 sm-12">
             <Image
               src={aboutImage}
               className="about-image"
               alt="Hustle Coin"
             />
           </Col>
-          <Col className="lg-5 md-6 sm-12">
-            <Box className="about">
+          <Col className="lg-6 offset-lg-1 md-6 sm-12">
+            <Box className="about-right-content">
               <SectionTitle>
                 <SectionBackground>
                   <Heading as="h1">
