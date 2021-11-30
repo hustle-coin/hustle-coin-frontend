@@ -27,12 +27,12 @@ const IndexPage = () => (
       <Banner />
       <Service />
       <CoinFund />
-      <About />
       <Awards />
+      <About />
       <Wallet />
       <Statistics />
-      <Stack />
       <Faq />
+      <Stack />
       <Footer />
     </Layout>
   </ThemeProvider>
