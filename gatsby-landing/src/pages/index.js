@@ -30,8 +30,8 @@ const IndexPage = () => (
       <CoinFund />
       <Awards />
       <About />
-      <Wallet />
       <Statistics />
+      <Wallet />
       <Faq />
       <Subscribe />
       <Stack />
