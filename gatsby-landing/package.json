@@ -1,9 +1,9 @@
 {
-  "name": "Hustle Coin Frontend",
+  "name": "hustle-coin-frontend",
   "private": true,
-  "description": "web front end for hustlecoin.today",
+  "description": "Frontend for hustlecoin.today",
   "version": "0.1.1",
-  "author": "Jonathan Adams jonathan@my4x4.club",
+  "author": "Jonathan Adams jonathan@my4x4.club>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^4.2.0",
