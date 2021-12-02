@@ -11,7 +11,7 @@ const PageHeader = ({ categories, title }) => {
         <h1>{title}</h1>
         <div className="breadcrumbs page">
           <>
-            <span> Home </span>{" "}
+            <span> Hustle Coin </span>{" "}
             <span>
               {" "}
               <AiOutlineDoubleRight />{" "}

@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{`Hustle Coin`}</title> 
+        <title>{`say hello to the moon`}</title> 
         <link
           rel="stylesheet"
           type="text/css"
