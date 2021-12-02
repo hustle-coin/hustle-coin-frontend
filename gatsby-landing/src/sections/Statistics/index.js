@@ -17,7 +17,7 @@ const Statistics = () => {
           <Row>
             <Col className="md-6 sm-6">
               <Box className="statistics-image">
-                <Heading as="h2">Funds Allocation</Heading>
+                <Heading as="h2">Pre-Sale Allocation</Heading>
                 <img src={statisticsImage1} alt="cryptic statistics image" />
               </Box>
             </Col>
