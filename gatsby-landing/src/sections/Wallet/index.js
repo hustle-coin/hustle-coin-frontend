@@ -7,7 +7,7 @@ import Text from "reusecore/Text"
 import Counter from "reusecore/Counter"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
-import walletImage from "assets/images/wallet-image.svg"
+import walletImage from "assets/images/FO38E42F5741-04.jpg"
 import SectionParticle from "assets/images/particles/crypto-managment-wallet.svg"
 
 import data from "assets/data/wallet"
@@ -40,7 +40,7 @@ const Wallet = () => {
                   converted to BNB and added to the balance throughout the day.
                 </Text>
                 <Text>
-                 Hustle Coin will automatically select one HSTL holder and 
+                 Hustle Coin will automatically select one HSTL holder and
                  award them with 100% of the Moon Wallet on the 25th of EVERY month. <br />
                  For your chance, simply hold a minimum of 100 HSTL coins in your wallet and
                  you might be the next one to say hello to the moon!
