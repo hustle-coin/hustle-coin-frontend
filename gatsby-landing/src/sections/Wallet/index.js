@@ -7,7 +7,7 @@ import Text from "reusecore/Text"
 import Counter from "reusecore/Counter"
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 
-import walletImage from "assets/images/FO38E42F5741-04.jpg"
+import walletImage from "assets/images/wallet-image.svg"
 import SectionParticle from "assets/images/particles/crypto-managment-wallet.svg"
 
 import data from "assets/data/wallet"
