@@ -24,7 +24,7 @@ const Subscribe = () => {
                     <SectionTitle>
                       <Heading> Moon Wallet Balance </Heading>
                       <Text className="post-entry">
-                        One lucky Hustle Coin holder has the chance to win {balance}
+                        One lucky Hustle Coin holder has the chance to win balance
                       </Text>
                     </SectionTitle>
                   </Col>
