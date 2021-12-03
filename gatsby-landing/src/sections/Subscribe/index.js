@@ -17,30 +17,99 @@ const Subscribe = () => {
       <Box className="subscribe-box-wrapper">
         <Container>
           <Row>
-            <Col className="col-12">
-              <Box className="subscribe-box-bg">
-                <Row>
-                  <Col className="lg-6 offset-lg-3 xs-12">
-                    <SectionTitle>
-                      <Heading> Always get the Hustle Coin News </Heading>
-                      <Text>
-                        Sign up for updates and market news. Subscribe to our
-                        newsletter and receive update about ICOs and crypto
-                        tips.
+          <Col className="sm-12 md-8">
+            <Row>
+              <Col className="xs-12">
+                <Box className="post-block list">
+                  <Box className="post-thumb-block">
+                    <img src={blogThumb1} alt="prime blog page" />
+                    <Box className="post-meta">
+                      <Text as="span">
+                        <Text as="em"> 15 </Text> DEC
                       </Text>
-                    </SectionTitle>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col className="lg-8 offset-lg-2 xs-12">
-                    <Box className="form-box">
-                      <Input
-                        type="text"
-                        placeholder="Enter your email address . . ."
-                      />
-                      <Button>Subscribe</Button>
                     </Box>
-                  </Col>
+                  </Box>
+                  <Heading as="h2" className="post-title">
+                    <Link to="/blog-single">
+                      It is a long established fact that
+                    </Link>
+                  </Heading>
+                  <Text className="post-entry">
+                    Readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable
+                    English. Many desktop publishing packages and web page
+                    editors now use
+                  </Text>
+
+                  <Link to="/blog-single" className="readmore-btn">
+                    see more <IoIosArrowRoundForward />
+                  </Link>
+                </Box>
+              </Col>
+              <Col className="xs-12">
+                <Box className="post-block list text-only">
+                  <Heading as="h2" className="post-title">
+                    <Link to="/blog-single">
+                      Friendship contrasted solicitude insipidity in
+                      introduced literature it.
+                    </Link>
+                  </Heading>
+                  <Text className="post-entry">
+                    Readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable
+                    English. Many desktop publishing packages and web page
+                    editors now use
+                  </Text>
+
+                  <Link to="/blog-single" className="readmore-btn">
+                    see more <IoIosArrowRoundForward />
+                  </Link>
+                </Box>
+              </Col>
+              <Col className="xs-12">
+                <Box className="post-block list qutoe-post">
+                  <Heading as="h2" className="post-title">
+                    <Link to="/blog-single">
+                      Friendship contrasted solicitude insipidity in
+                      introduced literature it. He seemed denote except as
+                      oppose do spring my.
+                    </Link>
+                  </Heading>
+                </Box>
+              </Col>
+              <Col className="xs-12">
+                <Box className="post-block list">
+                  <Box className="post-thumb-block">
+                    <img src={blogThumb2} alt="prime blog page" />
+                    <Box className="post-meta">
+                      <Text as="span">
+                        <Text as="em"> 15 </Text> DEC
+                      </Text>
+                    </Box>
+                  </Box>
+                  <Heading as="h2" className="post-title">
+                    <Link to="/blog-single">
+                      It is a long established fact that
+                    </Link>
+                  </Heading>
+                  <Text className="post-entry">
+                    Readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable
+                    English. Many desktop publishing packages and web page
+                    editors now use
+                  </Text>
+
+                  <Link to="/blog-single" className="readmore-btn">
+                    see more <IoIosArrowRoundForward />
+                  </Link>
+                </Box>
+              </Col>
                 </Row>
               </Box>
             </Col>
