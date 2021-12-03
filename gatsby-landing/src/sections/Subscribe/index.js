@@ -18,46 +18,9 @@ const Subscribe = () => {
         <Container>
           <Row>
             <Col className="col-12">
-              <Box className="subscribe-box-bg">
+              <Box className="blog-list-wrapper">
                 <Row>
-                  <Col className="lg-6 offset-lg-3 xs-12">
-                    <SectionTitle>
-                      <Heading> Always get the Hustle Coin News </Heading>
-                      <Text className="post-entry">
-                        Readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less
-                        normal distribution of letters, as opposed to using
-                        'Content here, content here', making it look like readable
-                        English. Many desktop publishing packages and web page
-                        editors now use
-                      </Text>
-                    </SectionTitle>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col className="lg-8 offset-lg-2 xs-12">
-                    <Box className="form-box">
-                      <Input
-                        type="text"
-                        placeholder="Enter your email address . . ."
-                      />
-                      <Button>Subscribe</Button>
-                    </Box>
-                  </Col>
-                </Row>
-              </Box>
-            </Col>
-          </Row>
-        </Container>
-      </Box>
-
-      <Box className="subscribe-box-wrapper">
-        <Container>
-          <Row>
-            <Col className="col-12">
-              <Box className="subscribe-box-bg">
-                <Row>
-                  <Col className="lg-6 offset-lg-3 xs-12">
+                  <Col className="sm-12 md-8">
                     <SectionTitle>
                       <Heading> Always get the Hustle Coin News </Heading>
                       <Text className="post-entry">
