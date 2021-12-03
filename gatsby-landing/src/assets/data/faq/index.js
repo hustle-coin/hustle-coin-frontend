@@ -2,10 +2,10 @@
 export default {
   faq: [
     {
-        name: "Pre-Sale",
+        name: "Hustle Coin Pre-Sale",
         items: [
             {
-                title: "What is ICO Crypto?",
+                title: "What is the Hustle Coin ICO?",
                 body: "An initial coin offering or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, although a private ICO which does not seek public investment is also possible."
             },
             {
@@ -23,7 +23,7 @@ export default {
         ]
     },
     {
-        name: "Moon Wallet",
+        name: "Hustle Coin Moon Wallet",
         items: [
             {
                 title: "What is the Moon Wallet?",
