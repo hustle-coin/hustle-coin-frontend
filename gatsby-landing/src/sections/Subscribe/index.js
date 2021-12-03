@@ -9,6 +9,8 @@ import Button from "reusecore/Button"
 import Input from "reusecore/Form/Input"
 import { SectionTitle } from "reusecore/SectionTitle"
 
+import { BlogPageWrapper } from "./blogList.style"
+
 import SubscribeWrapper from "./subscribe.style"
 
 const Subscribe = () => {
