@@ -41,7 +41,7 @@ const Subscribe = () => {
                 <Row>
                   <Col className="lg-6 offset-lg-3 xs-12">
                     <SectionTitle>
-                      <Heading> Always get the Hustle Coin News </Heading>
+                      <Heading> 'Your balance is: ${balance}' </Heading>
                       <Text>
                         Sign up for updates and market news. Subscribe to our
                         newsletter and receive update about ICOs and crypto
