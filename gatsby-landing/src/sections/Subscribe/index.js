@@ -22,14 +22,9 @@ const Subscribe = () => {
                 <Row>
                   <Col className="lg-6 offset-lg-3 xs-12">
                     <SectionTitle>
-                      <Heading> Always get the Hustle Coin News </Heading>
+                      <Heading> Moon Wallet Balance </Heading>
                       <Text className="post-entry">
-                        Readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less
-                        normal distribution of letters, as opposed to using
-                        'Content here, content here', making it look like readable
-                        English. Many desktop publishing packages and web page
-                        editors now use
+                        One lucky Hustle Coin holder has the chance to win {balance}
                       </Text>
                     </SectionTitle>
                   </Col>
