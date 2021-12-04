@@ -25,13 +25,13 @@ const Statistics = () => {
                   <div class="pie p60"></div>
                   <div class="pie center" ></div>
                   <div className="legend l60" >
-                    <div className="label" style={{paddingInline:"10px"}}>Liquidity</div>
+                    <div className="label" style={{paddingInline:"10px"}}>PancakeSwap</div>
                     <hr className="line"/>
                     <div class="point" ></div>
                     <div style={{  width: "15px", height: "15px", marginTop:"10px", color:"white", fontSize:"15px"  }}>60%</div>
                   </div>
                   <div className="legend l10" >
-                    <div className="label" style={{transform: "rotate(-45deg)", paddingInline:"5px"}}>Marketing</div>
+                    <div className="label" style={{transform: "rotate(-45deg)", paddingInline:"5px"}}>Marketing Wallet</div>
                     <hr className="line"/>
                     <div class="point" ></div>
                     <div style={{ transform: "rotate(-45deg)", width: "15px", height: "15px", marginTop:"10px", color:"white", fontSize:"15px"  }}>10%</div>
@@ -60,7 +60,7 @@ const Statistics = () => {
                   <div class="pie p60-2" ></div>
                   <div class="pie center" ></div>
                   <div className="legend l60">
-                    <div style={{paddingInline:"10px"}}>Locked</div>
+                    <div style={{paddingInline:"10px"}}>Token Lock</div>
                     <hr className="line"/>
                     <div class="point" ></div>
                     <div style={{ width: "15px", height: "15px", marginTop:"20px", color:"white", fontSize:"15px"  }}>62.5%</div>
