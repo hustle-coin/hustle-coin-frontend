@@ -1,5 +1,9 @@
 import React from "react"
+
 import bscscan, { account } from "bsc-scan";
+
+bscscan.setUrl("https://testnet.bscscan.com");
+bscscan.setApiKey("DQKEFS56AKQ1NXY3KVIZWK2UFG8IP5RY46");
 
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
@@ -12,13 +16,21 @@ import { SectionTitle } from "reusecore/SectionTitle"
 
 import SubscribeWrapper from "./subscribe.style"
 
-bscscan.setUrl("https://testnet.bscscan.com");
-bscscan.setApiKey("DQKEFS56AKQ1NXY3KVIZWK2UFG8IP5RY46");
+const start = async () => {
+  try {
+    const balance = await account.getTransactions(
+      "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
+    );
+
+    console.log(`Your balance is: ${balance}`);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+start();
 
 const Subscribe = () => {
-      balance = await account.getTransactions(
-        "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
-      );
   return (
     <SubscribeWrapper id="contact">
       <Box className="subscribe-box-wrapper">
