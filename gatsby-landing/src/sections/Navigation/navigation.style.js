@@ -134,7 +134,7 @@ const NavigationWrap =  styled.header`
       border-color: transparent
     }
     .logo{
-        width: 115px;
+        width: 215px;
     }
     .nav{
       li{
