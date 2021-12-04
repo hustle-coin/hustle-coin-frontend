@@ -19,7 +19,7 @@ import SubscribeWrapper from "./subscribe.style"
 const start = async () => {
   try {
     const balance = await account.getTransactions(
-      "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
+      "0x0793f460c5f2a0ef94fa1f089df38d2046753987"
     );
 <Text>
 ${balance}
