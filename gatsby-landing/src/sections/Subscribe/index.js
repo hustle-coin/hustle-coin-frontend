@@ -21,7 +21,9 @@ const start = async () => {
     const balance = await account.getTransactions(
       "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
     );
-
+<Text>
+${balance}
+</Text>
     console.log(`Your balance is: ${balance}`);
   } catch (err) {
     console.log(err);
@@ -43,7 +45,12 @@ const Subscribe = () => {
                     <SectionTitle>
                       <Heading> Always get the Hustle Coin News </Heading>
                       <Text className="post-entry">
-                        {...balance}
+                        Readable content of a page when looking at its layout. The
+                        point of using Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed to using
+                        'Content here, content here', making it look like readable
+                        English. Many desktop publishing packages and web page
+                        editors now use
                       </Text>
                     </SectionTitle>
                   </Col>
