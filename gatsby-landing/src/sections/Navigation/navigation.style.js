@@ -36,7 +36,7 @@ const NavigationWrap =  styled.header`
       color: ${props => props.theme.white};
     }
   }
-  /*Drop down style*/ 
+  /*Drop down style*/
   .dropdown{
     background: #fff;
     visibility: hidden;
@@ -63,7 +63,7 @@ const NavigationWrap =  styled.header`
     transform: translateY(0px);
     display: block;
   }
-  
+
   nav {
     ul {
       margin: 0;
@@ -91,7 +91,7 @@ const NavigationWrap =  styled.header`
             }
           }
         }
-      
+
       a, .nav-active{
         position: relative;
         color: #fff;
@@ -123,10 +123,10 @@ const NavigationWrap =  styled.header`
     margin-top: 8px;
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
     img{
-      width: 135px;
+      width: 165px;
     }
   }
-  &.scrolled{ 
+  &.scrolled{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
     background: #290E59;
     border-color: ${props => props.theme.NavBGSolid};
@@ -135,11 +135,11 @@ const NavigationWrap =  styled.header`
     }
     .logo{
         width: 100px;
-    } 
+    }
     .nav{
       li{
         padding: 14px 0px 14px 40px;
-        a{ 
+        a{
           &:hover{
             color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#1F2AD5'};
           }
@@ -175,14 +175,14 @@ const NavigationWrap =  styled.header`
           li+li{
             padding-left: 0;
           }
-        } 
+        }
     }
     .has-dropdown{
       a{
         position: relative;
         &:before{
           content: '';
-          
+
         }
       }
     }
