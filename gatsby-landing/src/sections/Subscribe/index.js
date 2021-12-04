@@ -1,10 +1,5 @@
 import React from "react"
 
-import bscscan, { account } from "bsc-scan";
-
-bscscan.setUrl("https://testnet.bscscan.com");
-bscscan.setApiKey("DQKEFS56AKQ1NXY3KVIZWK2UFG8IP5RY46");
-
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
 import Heading from "reusecore/Heading"
@@ -15,22 +10,6 @@ import Input from "reusecore/Form/Input"
 import { SectionTitle } from "reusecore/SectionTitle"
 
 import SubscribeWrapper from "./subscribe.style"
-
-const start = async () => {
-  try {
-    const balance = await account.getTransactions(
-      "0x0793f460c5f2a0ef94fa1f089df38d2046753987"
-    );
-<Text>
-${balance}
-</Text>
-    console.log(`Your balance is: ${balance}`);
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-start();
 
 const Subscribe = () => {
   return (
@@ -45,7 +24,12 @@ const Subscribe = () => {
                     <SectionTitle>
                       <Heading> Always get the Hustle Coin News </Heading>
                       <Text className="post-entry">
-                        ${balance}
+                        Readable content of a page when looking at its layout. The
+                        point of using Lorem Ipsum is that it has a more-or-less
+                        normal distribution of letters, as opposed to using
+                        'Content here, content here', making it look like readable
+                        English. Many desktop publishing packages and web page
+                        editors now use
                       </Text>
                     </SectionTitle>
                   </Col>
