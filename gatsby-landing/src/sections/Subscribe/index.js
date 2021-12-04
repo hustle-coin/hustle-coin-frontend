@@ -43,7 +43,7 @@ const Subscribe = () => {
                     <SectionTitle>
                       <Heading> Always get the Hustle Coin News </Heading>
                       <Text className="post-entry">
-                        {balance}
+                        {...balance}
                       </Text>
                     </SectionTitle>
                   </Col>
