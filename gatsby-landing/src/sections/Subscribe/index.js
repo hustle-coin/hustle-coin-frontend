@@ -1,4 +1,5 @@
 import React from "react"
+import bscscan, { account } from "bsc-scan";
 
 import { Container, Row, Col } from "reusecore/Layout"
 import Box from "reusecore/Box"
@@ -12,6 +13,9 @@ import { SectionTitle } from "reusecore/SectionTitle"
 import SubscribeWrapper from "./subscribe.style"
 
 const Subscribe = () => {
+  const balance = await account.getTransactions(
+      "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
+    );
   return (
     <SubscribeWrapper id="contact">
       <Box className="subscribe-box-wrapper">
