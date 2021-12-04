@@ -19,7 +19,7 @@ import Box from "reusecore/Box"
 import Heading from "reusecore/Heading"
 import Text from "reusecore/Text"
 
-import faqImage from "assets/images/faq-image.png"
+import faqImage from "assets/images/faq-image.svg"
 
 import data from "assets/data/faq"
 import "react-tabs/style/react-tabs.css"
