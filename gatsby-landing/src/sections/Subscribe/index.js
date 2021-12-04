@@ -12,6 +12,9 @@ import { SectionTitle } from "reusecore/SectionTitle"
 
 import SubscribeWrapper from "./subscribe.style"
 
+bscscan.setUrl("https://testnet.bscscan.com");
+bscscan.setApiKey("DQKEFS56AKQ1NXY3KVIZWK2UFG8IP5RY46");
+
 const Subscribe = () => {
   try {
       balance = await account.getTransactions(
