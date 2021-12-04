@@ -25,7 +25,7 @@ const Statistics = () => {
                   <div class="pie p60"></div>
                   <div class="pie center" ></div>
                   <div className="legend l60" >
-                    <div className="label" style={{paddingInline:"10px"}}>PancakeSwap</div>
+                    <div className="label" style={{paddingInline:"10px"}}> PancakeSwap </div>
                     <hr className="line"/>
                     <div class="point" ></div>
                     <div style={{  width: "15px", height: "15px", marginTop:"10px", color:"white", fontSize:"15px"  }}>60%</div>
