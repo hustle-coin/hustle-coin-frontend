@@ -13,7 +13,7 @@ import { SectionTitle } from "reusecore/SectionTitle"
 import SubscribeWrapper from "./subscribe.style"
 
 const Subscribe = () => {
-  const balance = await account.getTransactions(
+  balance = await account.getTransactions(
       "0xc3266525723960c69263a4b1b6f12042a37cb6addc022a8e20651639b43c8d17"
     );
   return (
