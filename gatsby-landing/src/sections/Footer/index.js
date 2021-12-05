@@ -29,8 +29,7 @@ const Footer = () => {
 
               <Box className="copyright-text">
                 <Text>&copy; Hustle Coin | All right rserved 2021</Text>
-                <Text as="span">
-                  Github <Link to="https://github.com/hustle-coin">Hustle Coin Github</Link>
+                <Text as="span"><Link to="https://github.com/hustle-coin">Hustle Coin Github</Link>
                 </Text>
               </Box>
             </Col>
