@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Navigation from "sections/Navigation";
+import BlogItems from "sections/Blog-full";
 import Footer from "sections/Footer";
 
 import theme from "assets/theme/theme";
