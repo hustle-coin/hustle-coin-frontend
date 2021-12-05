@@ -7,7 +7,7 @@ import Text from "reusecore/Text"
 import Heading from "reusecore/Heading"
 import { Container, Row, Col } from "reusecore/Layout"
 
-import PageHeader from "../../components/PageHeader"
+
 
 import data from "assets/data/blog"
 import { BlogPageWrapper } from "./blogFull.style"
