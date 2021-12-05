@@ -3,13 +3,12 @@ import { ThemeProvider } from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Navigation from "sections/Navigation";
+import BlogItems from "sections/Blog-full";
+import Footer from "sections/Footer";
 
-import Navigation from "sections/Navigation"
-import BlogSinglePage from "sections/Blog-single"
-import Footer from "sections/Footer"
-
-import theme from "assets/theme/theme"
-import GlobalStyle from "assets/theme"
+import theme from "assets/theme/theme";
+import GlobalStyle from "assets/theme";
 
 const NotFoundPage = () => (
   <ThemeProvider theme={theme}>
