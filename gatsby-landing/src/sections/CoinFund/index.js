@@ -11,9 +11,9 @@ import { SectionTitle, SectionBackground } from "reusecore/SectionTitle"
 import CoinFundWrapper from "./coinFund.style"
 
 const CoinFund = () => {
-  console.log(parseInt(((new Date("2021-12-20T00:00:58.000Z").getTime() - new Date().getTime()) / 1000).toFixed(0)))
+  console.log(parseInt(((new Date("2021-12-27T00:00:58.000Z").getTime() - new Date().getTime()) / 1000).toFixed(0)))
   const settings = {
-    count: parseInt(((new Date("2021-12-20T00:00:58.000Z").getTime() - new Date().getTime()) / 1000).toFixed(0)),
+    count: parseInt(((new Date("2021-12-27T00:00:58.000Z").getTime() - new Date().getTime()) / 1000).toFixed(0)),
     showTitle: true,
     size: 60,
     labelSize: 14,
