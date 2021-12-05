@@ -33,7 +33,6 @@ const IndexPage = () => (
       <Statistics />
       <Wallet />
       <Faq />
-      <Subscribe />
       <Stack />
       <Footer />
     </Layout>
