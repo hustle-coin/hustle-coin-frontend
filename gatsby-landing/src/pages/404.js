@@ -1,16 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import { ThemeProvider } from "styled-components"
 
-import { IoIosArrowRoundForward } from "react-icons/io"
-import Box from "reusecore/Box"
-import Text from "reusecore/Text"
-import Heading from "reusecore/Heading"
-import { Container, Row, Col } from "reusecore/Layout"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Navigation from "sections/Navigation";
+import BlogItems from "sections/Blog-full";
+import Footer from "sections/Footer";
 
-import PageHeader from "../../components/PageHeader"
-
-import data from "assets/data/blog"
-import { BlogPageWrapper } from "./blogFull.style"
+import theme from "assets/theme/theme";
+import GlobalStyle from "assets/theme";
 
 const NotFoundPage = () => (
   <ThemeProvider theme={theme}>
@@ -20,6 +18,7 @@ const NotFoundPage = () => (
       <h1>RUG-PULL.......NOT!!</h1>
       <p>This is NOT a rug-pull....you just hit a page that doesn&#39;t exist... the sadness.</p>
       <Navigation />
+      <BlogItems />
       <Footer/>
     </Layout>
   </ThemeProvider>
