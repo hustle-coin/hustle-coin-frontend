@@ -23,7 +23,7 @@ import {
         },
         {
             icon: <FaTelegramPlane />,
-            url: "t.me/hustlecointoday"
+            url: "https://t.me/hustlecointoday"
         }
     ]
   }
