@@ -15,12 +15,11 @@ import { BlogPageWrapper } from "./blogFull.style"
 const BlogGridItems = () => {
   return (
     <BlogPageWrapper>
+      <PageHeader title="This is NOT a rug-pull....you just hit a page that doesn&#39;t exist... the sadness." />
+
       <Box className="blog-page-wrapper">
         <Container>
-          <Text>
-          <h1>RUG-PULL.......NOT!!</h1>
-          <p>This is NOT a rug-pull....you just hit a page that doesn&#39;t exist... the sadness.</p>
-          </Text>
+
         </Container>
       </Box>
     </BlogPageWrapper>
