@@ -6,6 +6,7 @@ import Box from "../reusecore/Box"
 import Badge from "../reusecore/Badge"
 import Heading from "../reusecore/Heading"
 import Text from "../reusecore/Text"
+import PageHeader from "../components/PageHeader"
 
 import BannerImage from "../assets/images/banners/banner-one/banner-one-thumb.svg"
 
