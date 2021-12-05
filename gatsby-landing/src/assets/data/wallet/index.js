@@ -4,17 +4,17 @@ export default {
   wallet: [
     {
       count: 0,
-      suffixText: "$",
+      suffixText: "BNB",
       body: "Donated by Marketing",
     },
     {
       count: 0,
-      suffixText: "$",
+      suffixText: "BNB",
       body: "HSTL Transactions",
     },
     {
       count: 0,
-      suffixText: "$",
+      suffixText: "BNB",
       body: "Community Donations",
     },
   ],

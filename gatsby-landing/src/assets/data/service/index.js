@@ -13,7 +13,7 @@ export default {
     {
       icon: serviceIcon2,
       title: "Contract Audit",
-      body: "Audit completed by pinksale.finance.",
+      body: "Audit completed by tech-audit.org.",
     },
     {
       icon: serviceIcon3,

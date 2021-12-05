@@ -14,7 +14,7 @@ const BlogGrid = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Cryptik Blog Grid" />
+      <SEO title="Hustle Coin Blog Grid" />
       <Navigation />
       <BlogItems />
       <Footer/>

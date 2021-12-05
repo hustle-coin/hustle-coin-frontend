@@ -2,7 +2,6 @@ import React from 'react';
 
 import {
     FaTwitter,
-    FaFacebookF,
     FaTelegramPlane,
     FaGithub,
     FaRegEnvelope,
@@ -13,10 +12,6 @@ import {
         {
             icon: <FaTwitter />,
             url: "https://twitter.com/hustlecointoday"
-        },
-        {
-            icon: <FaFacebookF />,
-            url: "#"
         },
         {
             icon: <FaGithub />,

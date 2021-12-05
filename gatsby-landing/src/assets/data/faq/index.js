@@ -6,7 +6,7 @@ export default {
         items: [
             {
                 title: "What is the Hustle Coin ICO?",
-                body: "An initial coin offering or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, although a private ICO which does not seek public investment is also possible."
+                body: "An initial coin offering, or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding, although a private ICO which does not seek public investment is also possible."
             },
             {
                 title: "What cryptocurrencies can I use to buy Hustle Coin?",
@@ -18,7 +18,7 @@ export default {
             },
             {
                 title: "How do I benefit from buying HSTL during the pre-sale?",
-                body: "During our Pre-Sale of Huslte Coin you get an additional 25% in HSTL tokens."
+                body: "During our Pre-Sale of Hustle Coin you get an additional 25% in HSTL tokens."
             },
         ]
     },
@@ -27,15 +27,15 @@ export default {
         items: [
             {
                 title: "What is the Moon Wallet?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
+                body: "The Moon Wallet is a unique wallet that gets funded with 7% of each HSTL transaction as BNB and a once-a-month seed of 5% of the Marketing wallets value, again as BNB."
             },
             {
                 title: "Who can win the Moon Wallet?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
+                body: "On the 25th of each month Hustle Coin automatically selects one (1) HSTL owner of at least 100 HSTL coins and awards them with 100% of the Moon Wallets Balance."
             },
             {
                 title: "Can I donate to the Moon Wallet?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
+                body: "Community donations are encouraged to help fund the Moon Wallet."
             },
         ]
     },
