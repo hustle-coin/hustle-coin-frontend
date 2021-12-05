@@ -15,7 +15,7 @@ import prticleTopRight from "assets/images/particles/banner/prticle-top-right.pn
 import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png"
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png"
 
-import BannerWrapper from "./banner/banner.style"
+import BannerWrapper from "banner/banner.style"
 
 const Banner = () => {
   return (
