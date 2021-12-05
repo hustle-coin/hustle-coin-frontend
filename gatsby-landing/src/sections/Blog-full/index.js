@@ -15,7 +15,7 @@ import { BlogPageWrapper } from "./blogFull.style"
 const BlogGridItems = () => {
   return (
     <BlogPageWrapper>
-      <PageHeader title="Blog Full" author={{ name: "Alexa", profile: "/#" }} />
+      <PageHeader title="404 Sadness" />
 
       <Box className="blog-page-wrapper">
         <Container>
