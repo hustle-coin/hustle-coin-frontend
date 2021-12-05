@@ -1,19 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Container, Row, Col } from "reusecore/Layout"
-import Box from "reusecore/Box"
-import Badge from "reusecore/Badge"
-import Heading from "reusecore/Heading"
-import Text from "reusecore/Text"
+import { Container, Row, Col } from "../reusecore/Layout"
+import Box from "../reusecore/Box"
+import Badge from "../reusecore/Badge"
+import Heading from "../reusecore/Heading"
+import Text from "../reusecore/Text"
 
-import BannerImage from "assets/images/banners/banner-one/banner-one-thumb.svg"
+import BannerImage from "../assets/images/banners/banner-one/banner-one-thumb.svg"
 
-import particleTopLeft from "assets/images/particles/banner/particle-top-left.png"
-import particleUnderLogo from "assets/images/particles/banner/particle-under-logo.png"
-import prticleTopRight from "assets/images/particles/banner/prticle-top-right.png"
-import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png"
-import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png"
+import particleTopLeft from "../assets/images/particles/banner/particle-top-left.png"
+import particleUnderLogo from "../assets/images/particles/banner/particle-under-logo.png"
+import prticleTopRight from "../assets/images/particles/banner/prticle-top-right.png"
+import particleBottomLeft from "../assets/images/particles/banner/particle-bottom-left.png"
+import particleBottomRight from "../assets/images/particles/banner/particle-bottom-right.png"
 
 import BannerWrapper from "../sections/Banner/banner.style"
 
