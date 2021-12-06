@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo";
 import Navigation from "sections/Navigation";
 import Banner from "sections/Banner";
-import Service from "sections/Service";
+import Features from "sections/Features";
 import CoinFund from "sections/CoinFund";
 import About from "sections/About";
 import Awards from "sections/tokenomics";
@@ -26,7 +26,7 @@ const IndexPage = () => (
       <SEO title="Home" />
       <Navigation />
       <Banner />
-      <Service />
+      <Features />
       <CoinFund />
       <Awards />
       <About />
