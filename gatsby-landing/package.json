@@ -6,7 +6,7 @@
   "author": "Jonathan Adams jonathan@my4x4.club>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^4.2.0",
+    "gatsby": "^5.10.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-module-resolver": "^1.0.3",
